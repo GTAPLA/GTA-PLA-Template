@@ -1,0 +1,147 @@
+BEGIN_ECEN3314_SYLLABUS_PLAIN
+
+ECEN 3314: Electronic Devices & Applications
+Spring 2026
+Oklahoma State University
+INSTRUCTOR Name: Dr. Timothy (Tim) Brown Email: timothy.brown10@okstate.edu Office: 219 Engineering South Office Hours: Tuesday and Thursday 2-3 pm and Friday 4-6 Pm
+
+Teaching Assistants TA:
+TA Name and Office Hours:
+TA Name: Soren Petersen soren.petersen@okstate.edu Lab TA . no office hours HW help by appt
+TA Name: Mohamad Ali mali14@okstate.edu Office hours: Tuesday and Thursday 9:30am-11am ECE GTA Center
+
+PREREQUISITES ECEN 3714 with a grade of C or better and ENSC 2611 with a grade of C or better.
+
+CLASS TIME AND LOCATION Our lecture will meet in person from 8:30-9:20 AM Monday, Wednesday, and Friday in Classroom Building 212. The lab sections are in-person 1:30-3:20 PM and 3:30-5:20 PM on Tuesday afternoons.
+
+COURSE OVERVIEW : Welcome to Electronic Devices & Applications! This course is your gateway into the solid-state circuits at the heart of modern devices. While you've previously explored filtering and timing circuits using resistors, capacitors, and inductors, this semester we'll shift our focus to diodes and transistors. These semiconductor devices are essential for building everything from radios and LEDs to audio amplifiers and CPU logic gates.
+This course leverages your knowledge of semiconductors and DC/AC analysis to analyze and design a range of useful circuits. You'll discover how pn junctions are created from impurities in silicon, and how to exploit them as diodes for rectification and circuit protection. You'll learn how to combine pn junctions to create two basic types of transistors-- bipolar junction transistors and field effect transistors-- and how to exploit these for analog signal amplification and digital switching. Finally, you'll begin to appreciate the need for combining different types of amplifier blocks to achieve large gain at high frequency, an issue to be further explored in linear electronics. We'll also touch on related topics for later courses: how pn junctions emit light as LEDs and how FETs are combined to create gates to process digital logic in CPUs.
+
+KEY LEARNING OBJECTIVES
+- Appreciate how semiconductor physics enable solid state diodes and transistors through the pn junction
+- Define amplifiers as block diagrams with effective input/output resistance and gain components, and evaluate their impact in multistage amplifiers
+- Analyze diodes, BJTs, and FETs in various DC biasing conditions, and determine what is their mode of operation
+- Compute and apply small signal models for diodes and transistors to determine their effective input / output resistance and transconductance
+- Compare and contrast the pros and cons of various single stage amplifier configurations and evaluate their effectiveness in multistage amplifiers
+- Design and construct diode and transistor circuits for a variety of applications, like circuit regulation, rectification, and amplification
+
+GRADES SUMMARY: The tables below show the points possible for assignments/assessments along with the grading scale for this course. Your grades will be recorded in the Canvas gradebook so that you can easily track your progress. Grades will be assigned according to the standard percentage breakdown, after incorporating bonus points and earned-back missed points. 
+
+Due to ample opportunities for improving exam scores there will be no additional extra credit.
+
+Assignment or Assessment Task Percent of Total Grade Participation & Quizzes 20% Homework 10% Midterm Exams 25% Final Exam 20% Lab & Lab Exams 25% Total 100%
+Final Percentage of Possible Points Earned Grade 89.5% - 100% A 79.5% - 89.4% B 69.5% - 79.4% C 49.5% - 59.4% D <49.5% F
+
+COURSE CALENDAR: The lecture is split into three modules with two midterms and a final exam, and ten homework assignments. The final exam is comprehensive over modules 2 & 3. Homework is to be individually submitted as original or digitized handwritten worked problems. Homework solutions will be given at least three calendar days before the exams.
+- Module 1: Op Amps, Semiconductors, and the pn junction
+- Module 2: Diode circuits and Transistor DC modes of operation
+- Module 3: Small signal circuit models and Single stage amplifiers
+
+
+
+Module 1
+week 1 1/12 Syllabus & Pre-reqs
+week 2 1/19 Amp Models & Ideal Op Amps
+week 3 1/26 Non-ideal Op Amps 
+week 4 2/02 Semiconductors & p-n Junction
+week 5 2/09 p-n Junction   
+Module 2
+week 6 2/16 Diode Rectifiers & Clamps
+week 7 2/23 BJT Modes of Operation 
+week 8 3/02 BJT Circuit Analysis
+week 9 3/09 FET Modes of operation
+week 10 3/23 FET Circuit Analysis 
+week 11 3/30 Small signal models
+Module 3
+week 12 4/06 Common Source / Emitter Amps 
+week 13 4/13 Common Gate / Base Amps
+week 14 4/20 Common Collector / Emitter Amps 
+week 15 4/27 Additional Topics 
+week 16 5/04 No Class Final Exam
+HW
+week 3 1/26 HW 1 Due
+week 5 2/09 HW 2 Due
+week 7 2/23 HW 3 Due
+week 9 3/09 HW 4 Due
+week 10 3/23 HW 5 Due
+week 12 4/06 HW 6 Due
+week 14 4/20 HW 7 Due
+Exams
+week 5 2/09 Exam 1 Review
+week 6 2/16 Exam 1 Monday
+week 10 3/23 Exam 2 Review
+week 11 3/30 Exam 2 Monday
+week 15 4/27 Final Exam Review 
+
+
+
+Please note that there is a separate schedule of topics and assignments for the lab sections. The lab is scheduled so that you will have “bye” weeks the week before an exam (use this time to study!) and also the first week of a new module. See the lab syllabus for more information.
+
+TEACHING PHILOSOPHY:I believe that every student who demonstrates mastery of the course objectives deserves an A. My goal is to work with you to help you demonstrate this mastery. Exams will not be graded on a curve. Instead, your performance will be a direct reflection of your individual command of the material. Nor will I drop exam scores. Instead, I believe in second chances. You will have multiple opportunities to earn back points on exams, provided you put in extra effort. Please see “exams” under “Assignments and Assessments” for details on this policy.
+Ultimately, your learning is your responsibility, and you will have access to many tools to help you succeed. Class group collaboration and genAI are not just allowed—they are encouraged for understanding complex homework topics. However, your mastery will be individually assessed on in-class, paper exams without AI or internet. AI and working together are allowed on all materials except exams. My goal is to give you every chance to succeed and to make sure that you can all earn an A. Let's work together to make that happen!
+
+TEXTBOOKS & REQUIRED MATERIALS:
+Textbook: There are a required textbook and a strongly recommended reference for this course. Previous editions, digital copies, or international versions are all acceptable. The required textbook (Sedra & Smith) is available from the OSU library for a couple hours at a time (e.g., for making copies). However, it will also continue to be useful resource for at least the next two electronics courses and is available to you for exams. The recommended textbook covers the same material, and is accompanied by Razavi’s excellent free online lectures: (https://www.youtube.com/watch?v=yQDfVJzEymI&t=1s)
+Required
+Microelectronic Circuits, 8th Edition (2019, Oxford Uni Press) by: Adel S. Sedra, Kenneth C. Smith, Tony Chan Carusone, and Vincent Gaudet ISBN-13:978-0190853464 Available at Amazon, and other vendors
+Recommended
+Fundamentals of Microelectronics, 3rd Edition (2021, Wiley) by: Behzad Razav ISBN-13:978-1119695141 Available at OSU Bookstore, Amazon, and other vendors
+
+Other Required Materials: This course will make frequent use of iClicker for attendance and group quizzes to check your understanding. This will incur a $3 cost through the bursar’s office (although I may be able to get this covered by ECEN department). This will also require a phone, tablet, or computer to access the iClicker app—let me know if you need alternative arrangements to access the website in class. Please download the iClicker app to whatever device you will be using (https://www.iclicker.com/), create a student account, and search for this course by name.
+
+You will not have access to your phones, tablets, or computers during exams. In order to perform basic computations please purchase a basic calculator capable of at least algebraic operations, exponentials, and logarithms. A Texas Instruments scientific calculator (e.g., TI-30XIIS) should cost about $10 from Walmart or Amazon. A graphing calculator is also allowed if you already have it, but a scientific calculator is much cheaper if you do not.
+
+COMMUNICATION & OFFICE HOURS:
+Success comes from asking for help when you need it. For logistic questions or simple course questions please email the TAs or me with the subject line “ECEN3314 Question: etc.” and we will do our best to reply within 36 hours. Emails without this subject line may get lost in our inboxes. Emails sent over the weekend may not be replied to until the following Monday.
+For detailed homework questions, please attend the TAs or my (ES 219) office hours—these are student-focused times where you are welcome to stop by and request individual or small group help with particular course topics or homework questions. You may also choose to discuss with me any need for additional accommodations or strategies for being successful in this course. Outside of office hours I may sometimes be able to schedule zoom meetings by email request. I will announce class-wide announcements like homework assignments on the Canvas webpage.
+
+ATTENDANCE & PARTICIPATION:
+This course is designed around in-class group participation with iClicker, which requires you make every effort to be present. The course points are designed so that (without make-ups) if you miss more than 50% of the classes your maximum possible grade is a B. Furthermore, the course bonuses— like extra points on exams when there is 100% attendance or 100% correct on a quiz question—will be inaccessible if you miss class. I understand that family emergencies and other excusable absences can occur. In this case, you can make up missed in-class point opportunities at my discretion by contacting me directly. I may revoke this privilege if I feel that your absences become excessive. All course material will be uploaded to Canvas after it is covered in class.
+
+ASSIGNMENTS & ASSESSMENTS:Homework: Homework will be assigned on a ~bi-weekly basis, with about five multi-part questions from the lecture and / or textbook, developed by me or in collaboration with AI. Homework sets will be due to Canvas the week after they are assigned. You are encouraged to work in groups or collaborate with AI to solve the homework problems, but each one of you must individually submit a pdf scan of the problems worked out on in your own writing using pencil and paper or digital notetaking via tablet. The homework is designed to take you 1-3 hours for each problem set, so if it is taking you longer please email or come to office hours for a hint.
+In Class Quizzes: Lectures will be interspersed with quiz questions to check your knowledge or to pre-test on given topics. Each individual will earn points towards their participation grade (20% of total grade) with attendance and correct responses, but I am most interested in whether you can all work together as a class to improve attendance and convince each other to choose the right answer. For each day you achieve perfect attendance, and for each question with perfect accuracy, the whole class will earn 0.25 bonus percentage points to be added directly to the score for the next exam, with a limit of +6 percentage points on each exam. The quiz score is split 20 / 80 for giving a correct answer / attempting to answer. In other words, if you fail every quiz question you will only miss 4% (=20% x 20%) of the total course grade and can still earn an A+. However, if you do not attend class or do not submit a response, you will miss 20% of the total course grade, right on the edge between a B and C.
+Exams: There will be two midterm exams covering the first two course modules and one final exam over modules 2 and 3. All exams will be in-class, open-textbook, pen-and-paper exams completed individually within your allotted time. You will also be allowed to bring one one-sided 8.5” x 11” page with equations or tables. Exam questions will be developed from the homework and quiz questions covered in class. The maximum grade on any exam will be 100%.
+
+Unlocking Missed Exam Points: You will be able to earn partial credit back on your midterm exams, up to 3/5 of the points missed. To unlock this opportunity you will complete a short out- of-class project, either (1) a 3-5 minute multimedia video recording in your voice using a course topic agreed on by me and you or (2) a 3-5 minute in person oral exam or conceptual discussion conducted on the blackboard with me or the TAs. Your effort on the out-of-class project will be graded a 0, 1, 2, or 3 resulting in unlocking the ability to win back 0/5, 1/5, 2/5, or 3/5 of your missed points on a partial replacement exam. The partial replacement exam will be scheduled outside of normal class time at my discretion not later than two weeks after the original exam.
+
+LATE AND MISSED WORK:
+The course schedule is designed to give ample time for completing the lecture homework and lab sessions before the due date, even accounting for absences. Late homework will only be accepted at a 30% penalty for each day after the due date. Unlike exams, there will be no opportunities for winning back missed points on lecture homework and lab assignments. Please make every effort to attend the in-class midterm exams. Make-up exams will only be given at my discretion, and you will not be able to earn back missed points on them. The final exam schedule is set by OSU and cannot be made up, and there are no opportunities to earn back missed points.
+
+INCLUSIVITY & ACCESSIBILITY:My goal is for you to have a positive learning experience guided by teamwork and mutual respect for your classmates. OSU has a diverse student population, and I believe each person should feel like a valued member of our learning community; however, it is up to all of us to create an environment that fosters respect for everyone. I have a zero-tolerance policy for bullying and discrimination and will pursue every avenue to penalize such behavior, including but not limited to an automatic failing grade. There are no “stupid questions” in my course. Please raise your hand if something isn’t making sense to you and I will either answer you during class or follow up with you in my office hours. Similarly, if your neighbor has trouble with a concept you understand, take this as an opportunity to learn the topic from a different perspective as you help explain it to them. You may need the same kind of help later on.
+
+Beyond my help, there are other mechanisms of support available to you. If you believe that you qualify for academic accommodations, please contact Student Accessibility Services. Their office is located at 1514 W. Hall of Fame Ave. #103 (in the Seretean Wellness Center behind the Colvin Recreation Center) and their phone number is (405) 744-7116. You may also qualify for Student Support Services. The LASSO Center can provide tutoring and academic support. There are many more services available to you, including those pertaining to accessing basic needs, health and wellness resources, and mental health support. If you find yourself in need, please look at the OSU webpage, Connecting Cowboys to Resources.
+
+I have had mental health struggles and am a safe space for you to privately discuss yours. However, please be advised that my position makes me a mandatory reporter if I believe you or someone else has suffered an abuse covered under title VI, title VII, or title IX. (https://hr.okstate.edu/equal-opportunity/mandatory-reporters.html)
+
+ACADEMIC INTEGRITY At OSU, we value academic integrity. Violating academic integrity comes in many forms including cheating, copying others’ work, or even reusing portions your own work. For this course, use of AI, looking off or copying others’ work, or working together during exams will be considered cheating and dealt with severely. Maintaining your ethical integrity is essential during your time as a student, but it is also valued when you begin your career. If you’re not sure whether something is a violation, please ask. You can also learn more by reading OSU’s Violations of Academic Integrity. Even when it feels challenging, you should always submit your own original work. Any allowed use of AI must be properly accredited and disclosed.
+
+A copy of the university’s policy is available at http://academicintegrity.okstate.edu.
+
+AI ACCEPTABLE USAGE POLICY
+
+In recent years AI tools, especially genAI like OpenAI ChatGPT and Google Gemini, have become widespread. Familiarity with them is in high demand by employers. As part of the ECEN department’s Awareness-Adoption-Acceleration (AAA) initiative and OSU’s general push for AI education, in this course you are encouraged to use AI tools to supplement your understanding for all activities except exams. Use of AI tools during exams will be considered cheating and earn an instant failing grade. Ultimately, you are responsible for your own mastery of the subject material and AI is a tool to help you get there. So consider AI as a kind of supplemental TA for the course and try to use it in a way to assist you without completely replacing your effort. Here are some example prompts consistent with this attitude:
+
+- “I’m going to try to explain in my own words how a pn junction works. Tell me if I have any major misconceptions or if I’ve missed anything”
+
+- “I’m having trouble solving this CE amplifier circuit. Create a solution in five steps for this problem and give me a hint for each step if I ask for it”
+
+- “The answer to this homework problem is 10 V/V but I keep getting 20 V/V instead. Help me to understand where I might be making an error”
+
+- “Help me to create a mnemonic for the different modes of operation of a BJT”
+
+These are brand new tools and perspectives for their use in the classroom. This may get a bit messy. It is now well known that genAI may confidently return an incorrect answer (“hallucinate”) and even make up sources to support it. Be careful and alert and always ask me or the TAs if you believe you are being misinformed.
+
+Finally, just as you are encouraged to use AI for completing the course, I will be making free use of AI to help create and adapt the course, in an effort to model effective use of AI to you. This includes revising written communication like this syllabus, developing homework and test questions, and asking the AI to role play in projects to deepen your learning. My personal attitude for AI in the classroom is one of optimism for reinvigorating the classroom, tempered by healthy skepticism about it potentially thinking for us. Just as I’m asking you to stay in the driver’s seat and take personal responsibility for completing this course, my promise to you is that I am the instructor planning the creation of course materials, and I will carefully vet and/or revise AI outputs to make sure you have the best course experience possible.
+
+AI DISCLOSURE
+I used Google Gemini to help create this course syllabus, mainly by asking it to revise my original text for clarity or to make additions. My prompts to the AI are available upon reasonable request.
+OPTIONAL!! APPROVAL OF COURSE DATA FOR LATER RESEARCH
+
+Electrical & Computer Engineering
+
+Permission for Use of Classroom Materials for Future Research Studies:
+
+Throughout the semester, there will be many assignments for which you are allowed to use AI collaboration and reflect on the course structure, that may be used as part of a research project at some point in the future. Signing below allows the instructor to analyze these assignments for research purposes. This data will be used to improve instructional strategies and determine the effectiveness of AI tools in the classroom. All assignments used for these research purposes will be anonymized and assignments that cannot be anonymized will be excluded. No names or other identifying information will be attached to any study information. The data will be securely stored in the researcher’s office until no longer useful. Only aggregate data will be reported. Any research project that will be undertaken using these materials will have IRB approval sought for the project. Your decision whether or not to allow this data to be part of a future study will not affect your grade or standing in this class. Please feel free to contact me if you have questions or concerns about this potential research project. For information on research participants’ rights, contact the IRB Office, 218 Scott Hall, Stillwater, OK 74078, 405.744.3377 or irb@okstate.edu.
+
+
+
