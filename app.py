@@ -559,6 +559,9 @@ def answer_with_context(question: str, db, temp: float = TEMP_DEFAULT):
 def load_topic(topic, progress=gr.Progress(track_tqdm=False)):
     STATE.topic = topic
     STATE.file = KNOWLEDGE_BASES[topic]
+    if isinstance(STATE.file, list):
+        STATE.file = STATE.file[0]  # temporary: keep single-file behavior for now
+
     STATE.cache_key = _hash_for_cache(STATE.file, DEFAULT_EMBEDDING_MODEL)
 
     try:
@@ -930,5 +933,6 @@ if __name__ == "__main__":
         theme=OSU_THEME,
         # IMPORTANT: do NOT use prevent_thread_lock=True on Spaces
     )
+
 
 
