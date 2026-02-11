@@ -49,20 +49,34 @@ def load_topics(manifest_path: Optional[str] = None) -> CuratorResult:
     topics = data.get("topics", [])
     default_topic = data.get("default_topic", "")
 
-    knowledge_bases: Dict[str, Path] = {}
+    knowledge_bases: Dict[str, List[Path]] = {}
 
     for t in topics:
         name = str(t.get("name", "")).strip()
-        rel_file = str(t.get("file", "")).strip()
-        if not name or not rel_file:
+        rel_files = t.get("file", "")
+
+        # Normalize: allow "file" to be either a string or a list of strings
+        if isinstance(rel_files, str):
+            rel_files = rel_files.strip()
+            rel_files_list = [rel_files] if rel_files else []
+        elif isinstance(rel_files, list):
+            rel_files_list = [str(x).strip() for x in rel_files if str(x).strip()]
+        else:
+            rel_files_list = []
+
+        if not name or not rel_files_list:
             warnings.append("Skipping an entry with missing name or file.")
             continue
 
-        fpath = (kb_dir / rel_file).resolve()
-        knowledge_bases[name] = fpath
+        paths: List[Path] = []
+        for rf in rel_files_list:
+            fpath = (kb_dir / rf).resolve()
+            paths.append(fpath)
+            if not fpath.exists():
+                warnings.append(f"File not found for topic '{name}': {fpath}")
 
-        if not fpath.exists():
-            warnings.append(f"File not found for topic '{name}': {fpath}")
+        knowledge_bases[name] = paths
+
 
     if not knowledge_bases:
         raise ValueError("No valid topics found in the manifest.")
@@ -160,7 +174,9 @@ def main(argv: Optional[List[str]] = None) -> int:
         print(f"Default topic: {res.default_topic}")
         print("Topics:")
         for k, v in res.knowledge_bases.items():
-            print(f"- {k}: {v}")
+            print(f"- {k}:")
+            for p in v:
+                print(f"    - {p}")
         return 0
 
     return 1
@@ -168,3 +184,4 @@ def main(argv: Optional[List[str]] = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
