@@ -3,6 +3,7 @@
   "default_topic": "Syllabus",
   "topics": [
     { "name": "Syllabus", "file": "Syllabus.txt" },
-  
+    { "name": "All Class Knowledge", "file": "Syllabus.txt" }
   ]
 }
+
